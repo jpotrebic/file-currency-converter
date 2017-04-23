@@ -1,0 +1,8 @@
+[
+    {"currency":"EUR","amount":1000.00},
+    {"currency":"USD","amount":500.05},
+    {"currency":"GBP","amount":100.10},
+    {"currency":"CAD","amount":550.25},
+    {"currency":"CHF","amount":4000.50},
+    {"currency":"JPY","amount":50000}
+]
