@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transactions</title>
+  <style>
+    body {
+      padding: 50px;
+      font: 14px Helvetica, Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>Transactions uploader and converter</h1>
+  <p>Upload a transaction json and select a currency to convert to:</p>
+  <form action="/" method="post" enctype="multipart/form-data" target="result">
+    <input type="file" name="file"> <br><br>
+    <input type="radio" name="currency" value="EUR" checked="checked"> EUR
+    <input type="radio" name="currency" value="USD"> USD
+    <input type="radio" name="currency" value="JPY"> JPY
+    <input type="radio" name="currency" value="CAD"> CAD
+    <input type="radio" name="currency" value="CHF"> CHF
+    <input type="radio" name="currency" value="GBP"> GBP <br><br>
+    <input type="submit" value="Upload and convert">
+  </form>
+  <iframe name="result" style="border:none" height="500px" width="100%"></iframe>
+</body>
+</html>
